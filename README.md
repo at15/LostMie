@@ -10,3 +10,9 @@ A proxy for alert information, use incoming webhook to post error to `LostMie` a
 - sms 
 
 It won't send tons of messages during the midnight if your server is throwing error every second, but it will keep you awake unless you fix the problem or shut down the alert service itself.
+
+## Develop
+
+- install nodejs and npm on your system, recommend using nvm
+- `npm install`
+- `node server.js` or use `pm2` to run it in background

@@ -1,0 +1,10 @@
+{
+  "name": "LostMie",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": "dyweb/LostMie",
+  "dependencies": {
+    "express": "4.x",
+    "socket.io": "latest"
+  }
+}
