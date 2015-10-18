@@ -6,9 +6,12 @@
     <script src="assets/vendor/socket.io.js"></script>
 </head>
 <body>
-    test socket.io alert.
-    <script>
-        var socket = io();
-    </script>
+test socket.io alert.
+<script>
+    var socket = io();
+    socket.on('alert', function (msg) {
+        console.log('got alert msg', msg);
+    });
+</script>
 </body>
 </html>
