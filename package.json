@@ -5,6 +5,7 @@
   "repository": "dyweb/LostMie",
   "dependencies": {
     "express": "4.x",
-    "socket.io": "latest"
+    "socket.io": "latest",
+    "morgan":"latest"
   }
 }
